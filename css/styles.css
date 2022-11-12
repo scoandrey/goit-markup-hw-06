@@ -227,6 +227,9 @@ img {
   background-color: var(--background-color-btn);
   color: #ffffff;
 }
+
+/* Modal window*/
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -263,6 +266,14 @@ img {
   border-radius: 4px;
   transform: translate(-50%, -50%);
 }
+.form-name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
 .close-btn {
   position: absolute;
   top: 8px;
@@ -280,6 +291,15 @@ img {
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
+}
+.close-btn-icon {
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.close-btn-icon:hover,
+.close-btn-icon:focus {
+  fill: #2196f3;
 }
 
 /*section-middle*/
@@ -667,6 +687,7 @@ img {
   border-radius: 4px;
 }
 .btn-singup {
+  cursor: pointer;
   position: relative;
   margin-left: 12px;
   width: 200px;
