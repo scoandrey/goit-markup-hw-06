@@ -628,6 +628,7 @@ img {
   line-height: 1.1;
   letter-spacing: 0.03em;
   color: #ffffff;
+  text-transform: uppercase;
 }
 .footer-link {
   padding: 0;
@@ -652,6 +653,34 @@ img {
 .social-link-footer:focus {
   background-color: #2196f3;
   fill: #ffffff;
+}
+
+.signup-footer {
+  margin-left: 93px;
+}
+.form-input {
+  padding-left: 16px;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+.btn-singup {
+  position: relative;
+  margin-left: 12px;
+  width: 200px;
+  height: 50px;
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 0;
+  border: 0;
+}
+.icon-send {
+  position: absolute;
+  margin-left: 10px;
 }
 
 /*hero*/
